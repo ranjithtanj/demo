@@ -1,7 +1,6 @@
  Demo::Application.routes.draw do
 
-   root :to => "users#index1"
-
+ 
   resources :microposts
 
   resources :users
